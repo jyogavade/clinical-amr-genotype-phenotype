@@ -1,5 +1,5 @@
 # Meropenem phenotype and resistance-gene annotations in *Klebsiella pneumoniae*
-
+**Skills used:** Python, pandas, NCBI Pathogen Detection, AMRFinderPlus, reproducible workflows
 This beginner project compares laboratory antimicrobial susceptibility test (AST) results with NCBI AMRFinderPlus annotations for the **same bacterial isolate**. It asks how often a selected gene panel agrees with the submitted meropenem result in this downloaded public dataset.
 
 > This is an exploratory analysis of public records. It is not a clinical test evaluation and must not be used to guide treatment.
@@ -14,6 +14,8 @@ Panel-positive means at least one selected `blaKPC`, `blaNDM`, or selected OXA-4
 |---|---:|---:|---:|
 | Resistant (R) | 582 | 81 | 663 |
 | Susceptible (S) | 46 | 542 | 588 |
+
+![Panel vs meropenem](outputs/figures/panel_vs_meropenem.svg)
 
 The categories agreed for 1,124 of 1,251 records (89.8%). That percentage describes this dataset, not the performance of a clinical test. The browser showed 436 SNP clusters, and the reported Wilson confidence intervals do not adjust for related isolates.
 
