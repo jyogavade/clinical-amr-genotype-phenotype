@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#192b27}.head{font-size:22px;font-weight:bold}.label{font-size:17px;font-weight:bold}.num{font-size:36px;font-weight:bold}.tag{font-size:14px}</style>
+<text x="450" y="48" text-anchor="middle" class="head">NCBI gene panel vs. meropenem result</text>
+<text x="500" y="100" text-anchor="middle" class="label">Panel positive</text>
+<text x="730" y="100" text-anchor="middle" class="label">Panel negative</text>
+<text x="30" y="220" class="label">Resistant (R)</text>
+<text x="30" y="400" class="label">Susceptible (S)</text>
+<rect x="390" y="135" width="210" height="155" rx="4" fill="#dcefe5" stroke="#49615a" stroke-width="2"/>
+<text x="495" y="213" text-anchor="middle" class="num">582</text>
+<text x="495" y="253" text-anchor="middle" class="tag">MATCH</text>
+<rect x="620" y="135" width="210" height="155" rx="4" fill="#fff0d6" stroke="#49615a" stroke-width="2"/>
+<text x="725" y="213" text-anchor="middle" class="num">81</text>
+<text x="725" y="253" text-anchor="middle" class="tag">MISMATCH</text>
+<rect x="390" y="315" width="210" height="155" rx="4" fill="#fff0d6" stroke="#49615a" stroke-width="2"/>
+<text x="495" y="393" text-anchor="middle" class="num">46</text>
+<text x="495" y="433" text-anchor="middle" class="tag">MISMATCH</text>
+<rect x="620" y="315" width="210" height="155" rx="4" fill="#dcefe5" stroke="#49615a" stroke-width="2"/>
+<text x="725" y="393" text-anchor="middle" class="num">542</text>
+<text x="725" y="433" text-anchor="middle" class="tag">MATCH</text>
+<text x="450" y="500" text-anchor="middle" font-family="Arial,sans-serif" font-size="13">Positive = at least one selected gene call marked COMPLETE; 55 intermediate isolates excluded.</text>
+</svg>

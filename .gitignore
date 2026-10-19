@@ -1,0 +1,15 @@
+# Downloaded raw data and locally generated intermediate tables
+work/
+
+# Python environments and cache files
+.venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter's local checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Windows/macOS file-browser metadata
+Thumbs.db
+.DS_Store
